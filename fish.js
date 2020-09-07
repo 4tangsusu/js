@@ -1,11 +1,11 @@
 var i = 0
 while ( i < 100 ) {
-document.write ('Ä¿¹Â¿¡¼­ ³îÁö¸»°í ÀÛÇ°ÀÌ³ª ¸¸µå¼¼¿©<br>')
+document.write('ì»¤ë®¤ì—ì„œ ë†€ì§€ë§ê³  ì‘í’ˆì´ë‚˜ ë§Œë“œì„¸ì—¬<br>')
 i = i + 1
 }
 
 function work() {
-location.replace ('https://playentry.org/ws')
+location.replace('https://playentry.org/ws')
 }
 
-setTimeout (work, 1000)
+setTimeout(work, 1000)
