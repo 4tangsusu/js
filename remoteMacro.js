@@ -2,7 +2,7 @@
 let name = prompt('어떤 작품에 매크로를 실행할까요?');
 let time = prompt('몇초마다 작품을 업로드 할까요?');
 let id;
-if (time > 180) {
+if (time > 179) {
     $.get(`https://playentry.org/api/project/find?user=${user._id}`,
     get => {
         get.data.forEach(project => {
@@ -23,5 +23,5 @@ if (time > 180) {
         }
     });
 } else {
-    console.log('작품 업로드 주기는 3분보다 많아야 합니다.');
+    console.log('작품 업로드 주기는 3분 이상이여야 합니다.');
 }
